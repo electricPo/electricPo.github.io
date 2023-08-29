@@ -209,10 +209,10 @@
 	          <div class="col-lg-12 justify-content-center" data-aos="fade-up" data-aos-delay="100">
 	            <ul id="portfolio-flters">
 	              <li data-filter="*" class="filter-active">All</li>
-	              <li data-filter=".filter-booking">final</li>
-	              <li data-filter=".filter-lms">flowershop Lilac(팀 프로젝트)</li>
-	              <li data-filter=".filter-board">BOARD(개인)</li>
-	              <li data-filter=".filter-cashbook">CASHBOOK(개인)</li>
+	              <li data-filter=".filter-booking">Cake Craft(final 팀 프로젝트)</li>
+	              <li data-filter=".filter-lms">flowershop Lilac(semi 팀 프로젝트)</li>
+	              <li data-filter=".filter-board">CASHBOOK(개인)</li>
+	              <!-- <li data-filter=".filter-cashbook">CASHBOOK(개인)</li> -->
 	            </ul>
 	          </div>
 	        </div>
@@ -233,34 +233,46 @@
 			
 			          <div class="col-lg-5">
 			            <div class="portfolio-info">
-			              <h3>final</h3>
+			              <h3>Cake Craft(final 팀 프로젝트)(2023.08.10 ~ 개발중)</h3>
 			            </div>
 			            <div class="portfolio-description">
-			                <p><b>Spring boot</b></p>
+			                <p><b>Spring/MVC 방식의 전자결재시스템 그룹웨어 구현</b></p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
-				                <a href="https://github.com/goodee-project/58shop_b" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub-기업</a>
-				                <a href="https://github.com/goodee-project/58shop_c" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub-고객</a>
+				                <a href="https://github.com/Booyo-Vo" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub-기업</a>
 				                <br><br>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/gdj58ERD.png')">ERD</button>
+				                <!-- <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/gdj58ERD.png')">ERD</button>
 				                <a href="http://15.165.143.58/58platform/integrationPage" class="btn btn-info" target="_blank">AWS</a>
-				                <a href="https://tar-asiago-605.notion.site/3714fa4f127c48c0aebde7bfa9fc48c2" class="btn btn-warning" target="_blank">Notion</a>
+				                <a href="https://tar-asiago-605.notion.site/3714fa4f127c48c0aebde7bfa9fc48c2" class="btn btn-warning" target="_blank">Notion</a> -->
 			              	</div>
 			              	<ul>
-								<li style="margin-bottom: 5px">개발 환경 및 라이브러리 <br> - Spring Boot, JDK 17, HTML, CSS, SQL, jQuery, Java Script, JSTL, Ajax, Mybatis, Maven, JDBC, Bootstrap, restAPI, Maria DB</li>
+								<li style="margin-bottom: 5px"><b>개발 환경 및 라이브러리</b> <br> - Spring Boot, JDK 17, HTML, CSS, SQL, jQuery, Java Script, JSTL, Ajax, Mybatis, Maven, JDBC, Bootstrap, restAPI, Maria DB</li>
 							</ul>
 			                <hr>
-			                <b>[담당 기능]</b><br>
-			                <!-- 
-			                플랫폼-쇼핑몰 서비스-고객파트 담당<br>
-			                1) 장바구니<br>
-							2) 주문<br>
-							3) 결제<br>
-							 -->
-			            </div>
-			          </div>
-			        </div>
-			      </div>
+			                <b>담당 기능</b><br>
+			                	<ul>
+			                		<li>
+			                		<b>팀 일정관리</b>
+				                 	<b>로그인 / 출퇴근기능</b><br>
+				                 		&nbsp; id와 기본pw 설정: 입사시 생성되는 사번을 기본 id로 설정하여 첫 로그인 시 부여 받은 id와 pw를 입력해 로그인<br>
+				                 		&nbsp; 로그인 유지: 로컬 스토리지를 사용하여 자동로그인 기능 구현<br>
+				                 		&nbsp; 지정된 위치에서 활성화되는 출퇴근 버튼을 구현하여 db로 리스트 출력<br>
+				                 	</li>
+				                 	<li>
+								 	<b>사원마이페이지</b><br>
+								 		&nbsp; 사원이 개인정보를 조회하는 페이지로 남은 연차 개수를 표시하도록 구현<br>
+								 		&nbsp; 정보 변경기능: 사원이 개인정보를 변경하는 것이 가능<br>
+								 	</li>
+								 	<li>
+									<b>사원조회</b><br>	
+										&nbsp; 조회 페이지의 첫 화면에서 사원이 다른 사원을 검색하고 정렬할 수 있도록 구현<br>
+										&nbsp; 상세내역으로 보이는 사원정보는 인사팀이 가진 사원 테이블에서 일부만 보이도록 구현<br>
+									</li>
+			            		</ul>
+			            	</div>
+			          	</div>
+		        	</div>
+			     </div>
 			      
 		 		<!-- LMS -->
 			 	<div class="container portfolio-item filter-lms">
@@ -382,44 +394,13 @@
 		              		</div>
 		             	 </div>
 			          </div>
-			
-			          <div class="col-lg-5">
-			            <div class="portfolio-info">
-			              <h3>BOARD</h3>
-			            </div>
-			            <div class="portfolio-description">
-				            <p><b>BOARD(개인)</b></p>
-			              	<hr> 
-			              	<div style="margin-bottom: 25px">
-				                <a href="https://github.com/" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/shopERD.PNG')">ERD</button>
-				                <a href="http://3.35.213.86/semi-project/home/intro" class="btn btn-info" target="_blank">AWS</a>
-				                <a href="https://tar-asiago-605.notion.site/b0b83065d97f4a54a38f6d1af6e0a703" class="btn btn-warning" target="_blank">Notion</a>
-			              	</div>
-			              	<ul>
-								<li style="margin-bottom: 5px">개발 환경 및 라이브러리 <br> - JDK 17, HTML, CSS, SQL, jQuery, Java Script, JavaServlet, Maria DB, Eclipse</li>
-							</ul>
-			                <hr>
-			                <b>담당 기능</b><br>
-			                <!-- 
-			             	1) 상품관리<br>
-							2) 이벤트관리<br>
-							3) 리뷰관리<br>
-							 -->
-	              		</div>
-			          </div>
 			        </div>
 			      </div>
-	        
-  				
 			    </div>
 	        </div>
 	    </section>
 	    <!-- End Portfolio Section -->
-	    
-	    
-	    
-		
+
 	  </main><!-- End #main -->
 	
 	  <!-- ======= Footer ======= -->
